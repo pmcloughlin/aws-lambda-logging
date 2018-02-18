@@ -1,0 +1,25 @@
+{
+  "name": "aws-lambda-logging",
+  "version": "1.0.0",
+  "description": "A wrapper service for AWS logging.  Service allows turning debug logging off.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/pmcloughlin4/aws-lambda-logging.git"
+  },
+  "author": "Pat McLoughlin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://bitbucket.org/pmcloughlin4/aws-lambda-logging/overview"
+  },
+  "homepage": "https://bitbucket.org/pmcloughlin4/aws-lambda-logging/src/bdacd1bb5aa6f37b5176e0d1a1814d759b747525/README.md",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.1",
+    "should-sinon": "0.0.6",
+    "sinon": "^3.3.0"
+  }
+}
